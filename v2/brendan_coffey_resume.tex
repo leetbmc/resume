@@ -1,0 +1,123 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0.75in, bottom=0.75in, left=0.75in, right=0.75in]{geometry}
+
+\name{Brendan}{Coffey}
+\title{Principal Architect, Data Systems}
+\address{Pasadena, CA}{}{}
+\phone[mobile]{+1~(408)~205~0031}
+\email{bmc+resume@section9.net}
+\homepage{linkedin.com/in/brendancoffey}
+
+\begin{document}
+\makecvtitle
+
+\section{Summary}
+Dynamic, hands-on software engineer and technical leader, with 20+ years designing embedded and distributed systems, data platforms, applications and infrastructure. I build happy teams of productive engineers. I thrive in production, product-oriented environments, where systems and software must be reliable. Deep, multidisciplinary engineering experience allows me to bring creative problem solving and leadership to complex technical and business challenges.
+
+\section{Experience}
+
+\cventry{2020--Present}{Senior Principal Architect, Data Systems}{Equinix}{Remote / Los Angeles, CA}{}{\begin{minipage}[t]{\linewidth}
+\begin{itemize}
+  \item Founded, hired, and lead 10-person data platform team. Hired manager, software and devops engineers; coached and trained platform engineers in software design and development.
+  \item Lead platform architecture in Google Cloud for data systems used by ~5,000 enterprise analytics and ML/AI users.
+  \item Responsible for capacity planning and resource management, including vendor contract and commit negotiations.
+  \item Evolved team from IT/back-office model to 24x7 SLA, to support customer and ops facing data applications.
+  \item Designed and implemented test automation framework for data pipelines.
+\end{itemize}
+\end{minipage}}
+
+\cventry{2017--2020}{Director, Data Engineering}{The Walt Disney Studios}{Burbank, CA}{}{\begin{minipage}[t]{\linewidth}
+\begin{itemize}
+  \item Founded and scaled a 6-person data platform engineering team.
+  \item Oversaw architecture, roadmap, hiring, budgeting, and vendor management.
+  \item Reduced ~70 person data engineering and analytics team to under 30, while expanding services to include self-service data exploration, visualization, and machine learning facilities.
+  \item Supervised the design and implementation of data platform services, including Spark, Airflow, and data governance tools.
+  \item Negotiated and signed vendor master service agreement with Databricks on behalf of Walt Disney Company.
+  \item Hired and led team to build the Studio's first machine-learning-based box office projection model.
+\end{itemize}
+\end{minipage}}
+
+\cventry{2013--2015}{Senior Software Engineer}{EcoFactor}{Redwood City, CA}{}{\begin{minipage}[t]{\linewidth}
+\begin{itemize}
+  \item Architected and implemented distributed control, data collection and analytics systems for residential smart thermostats.
+  \item Designed and implemented core data collection, aggregation, analytics, and control messaging.
+  \item Built an event-driven simulator in Node.js to for platform scaling simulations from O(10K) to O(10M) devices.
+\end{itemize}
+\end{minipage}}
+
+\cventry{2012--2013}{Senior Software Engineer}{Thomson Reuters}{San Francisco, CA}{}{\begin{minipage}[t]{\linewidth}
+\begin{itemize}
+  \item Developed risk and portfolio analytics infrastructure in .NET and C\#.
+  \item Designed high-performance matrix computation and caching systems.
+  \item Led devops tooling and deployment automation for multi-tier apps.
+\end{itemize}
+\end{minipage}}
+
+\cventry{2007--2011}{Software Engineer}{Pacific Biosciences}{Menlo Park, CA}{}{\begin{minipage}[t]{\linewidth}
+\begin{itemize}
+  \item Distributed systems and control software for real-time DNA sequencing instruments.
+  \item Implemented soft real-time control and infrastructure for instrument bring-up.
+  \item Designed and implemented primary signal acquisition system, including calibration and realtime image processing.
+\end{itemize}
+\end{minipage}}
+
+\iffalse
+
+\cventry{2005--2007}{Software Engineer}{Aplix Corporation of America}{}{}{\begin{minipage}[t]{\linewidth}
+\begin{itemize}
+  \item Contributed to Java Virtual Machine (JVM) and MIDP 3.0 implementation for mobile platforms.
+  \item Delivered Java VM tech to Motorola, Nokia, and Symbian device lines.
+\end{itemize}
+\end{minipage}}
+
+\cventry{2005--2006}{Director of IT}{The Orphanage}{San Francisco, CA}{}{\begin{minipage}[t]{\linewidth}
+\begin{itemize}
+  \item Led all IT operations for a digital VFX studio; managed 25-person technical team.
+  \item Oversaw systems, networking, infrastructure, and internal software dev.
+\end{itemize}
+\end{minipage}}
+
+\cventry{2004--2005}{Software Engineer}{The Orphanage}{San Francisco, CA}{}{\begin{minipage}[t]{\linewidth}
+\begin{itemize}
+  \item Built custom IT, HR, and project tracking systems for resource use and financial reporting.
+  \item Supported digital VFX workflow for 180+ artists and supervisors.
+\end{itemize}
+\end{minipage}}
+
+\cventry{2003--2004}{Software Engineer}{Wavemarket}{}{}{}
+
+\cventry{2001--2002}{Software Engineer}{Voom, Inc.}{}{}{\begin{minipage}[t]{\linewidth}
+\begin{itemize}
+  \item Delivered software solutions and consulting for ASIC and FPGA development projects.
+\end{itemize}
+\end{minipage}}
+
+\fi
+
+\section{Education}
+\cventry{}{B.S. Computer Science \& Applied Mathematics}{Northeastern University}{Boston, MA}{}{
+Activities: Student Systems Group, Hiking \& Outing Club}
+
+\iffalse
+
+\section{Technical Skills}
+\cvitem{Languages}{Python, Java, Scala, Go, C\#, SQL}
+\cvitem{Cloud}{GCP (BigQuery, Dataflow, Dataproc, Composer), AWS}
+\cvitem{Data}{Airflow, Spark, Kafka, Hadoop, Beam, Looker, Amundsen, DBT}
+\cvitem{MLOps}{Vertex AI, TensorFlow, ML pipeline orchestration}
+\cvitem{DevOps}{Docker, Kubernetes, Terraform, GitHub Actions, Prometheus}
+
+\section{Community}
+\cvitem{Speaking}{O’Reilly AI Conf, Google Cloud Next, local engineering meetups}
+\cvitem{Open Source}{Apache Beam, dbt-labs contributor}
+
+\fi
+
+\end{document}
+
